@@ -86,11 +86,11 @@ def all_holidays_with_bbq(holiday_hash)
       holidays.map do|holiday,supply|
     
     if supply include?("BBQ")
-      
+      holiday
 end
 end
 end
-
+end
 
 
 
