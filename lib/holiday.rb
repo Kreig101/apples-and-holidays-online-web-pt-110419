@@ -87,6 +87,7 @@ def all_holidays_with_bbq(holiday_hash)
       binding.pry
        if supply == "BBQ"
          supply.each do |cookout|
+           cookout
 end
 end
 end
